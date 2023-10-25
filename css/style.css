@@ -56,7 +56,7 @@ nav span {
 header.header-img {
   position: relative;
   height: 100vh;
-  background-image: url("img/dog_640.jpg");
+  background-image: url("img/dog_640.jpg/");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
