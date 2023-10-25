@@ -106,8 +106,7 @@ header.header-img .fa-chevron-down {
 .aboutus .aboutus-card-text {
   font-size: 14px;
 }
-
-.aboutus-hover:hover i {
+.aboutus .aboutus-hover:hover i {
   color: gold;
   transition: 0.6s;
 }
