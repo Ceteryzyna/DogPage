@@ -117,8 +117,12 @@ header.header-img {
 		font-size: 14px;
 	}
 }
-.row:first-of-type:hover {
-	color: $main-color;
+
+.aboutus-hover:hover {
+	i {
+		color: $main-color;
+		transition: 0.6s;
+	}
 }
 
 @media (min-width: 768px) {

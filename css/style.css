@@ -107,8 +107,9 @@ header.header-img .fa-chevron-down {
   font-size: 14px;
 }
 
-.row:first-of-type:hover {
+.aboutus-hover:hover i {
   color: gold;
+  transition: 0.6s;
 }
 
 @media (min-width: 768px) {
