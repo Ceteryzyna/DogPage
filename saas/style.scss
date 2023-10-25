@@ -1,0 +1,140 @@
+@use "./colors" as *;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #333;
+}
+
+.shadow-bg {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+.underline {
+	width: 100px;
+	height: 4px;
+	background-color: $main-color;
+	margin: 0 auto 40px;
+}
+
+nav {
+	text-transform: uppercase;
+	transition: 0.6s;
+	z-index: 5;
+
+	.navbar-toggler {
+		padding: 10px 15px;
+	}
+
+	.navbar-brand {
+		font-weight: bold;
+	}
+
+	.nav-link,
+	.navbar-nav .show > .nav-link,
+	.navbar-brand,
+	.fa-bars {
+		color: $light-color;
+	}
+
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .show > .nav-link {
+		color: $main-color;
+	}
+	span {
+		color: $main-color;
+		font-weight: 700;
+	}
+}
+
+header.header-img {
+	position: relative;
+	height: 100vh;
+	background-image: url("/img/dog_640.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: $light-color;
+	z-index: 0;
+
+	h1 {
+		text-transform: uppercase;
+		span {
+			color: $main-color;
+			font-weight: 700;
+		}
+	}
+
+	.header-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgb(0, 0, 0, 0.8);
+		z-index: -5;
+	}
+
+	.header-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.fa-chevron-down {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 20px;
+		font-size: 30px;
+		color: $light-color;
+	}
+}
+
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+	.aboutus-card-title {
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+}
+.row:first-of-type:hover {
+	color: $main-color;
+}
+
+@media (min-width: 768px) {
+	.header-text {
+		h1 {
+			font-size: 42px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	header.header-img {
+		background-image: url("/img/dog_1920.jpg");
+	}
+}

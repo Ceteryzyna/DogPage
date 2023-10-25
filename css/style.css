@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 100px;
+  height: 4px;
+  background-color: gold;
+  margin: 0 auto 40px;
+}
+
+nav {
+  text-transform: uppercase;
+  transition: 0.6s;
+  z-index: 5;
+}
+nav .navbar-toggler {
+  padding: 10px 15px;
+}
+nav .navbar-brand {
+  font-weight: bold;
+}
+nav .nav-link,
+nav .navbar-nav .show > .nav-link,
+nav .navbar-brand,
+nav .fa-bars {
+  color: #fff;
+}
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .show > .nav-link {
+  color: gold;
+}
+nav span {
+  color: gold;
+  font-weight: 700;
+}
+
+header.header-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("/img/dog_640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  z-index: 0;
+}
+header.header-img h1 {
+  text-transform: uppercase;
+}
+header.header-img h1 span {
+  color: gold;
+  font-weight: 700;
+}
+header.header-img .header-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -5;
+}
+header.header-img .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+header.header-img .fa-chevron-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+.aboutus .aboutus-hover:hover i {
+  color: gold;
+  transition: 0.5s;
+}
+
+@media (min-width: 768px) {
+  .header-text h1 {
+    font-size: 42px;
+  }
+  .header-text p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  header.header-img {
+    background-image: url("/img/dog_1920.jpg");
+  }
+}/*# sourceMappingURL=style.css.map */
