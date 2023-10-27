@@ -5,6 +5,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	scroll-padding-top: 74px;
+}
 
 body {
 	font-family: "Montserrat", sans-serif;
@@ -28,7 +31,7 @@ body {
 
 nav {
 	text-transform: uppercase;
-	transition: 0.6s;
+	transition: background-color 0.6s;
 	z-index: 5;
 
 	.navbar-toggler {
@@ -117,12 +120,11 @@ header.header-img {
 		font-size: 14px;
 	}
 	.aboutus-hover:hover {
-	i {
+		transition: color 0.6s;
+		i {
 			color: $main-color;
-			transition: 0.6s;
 		}
-}
-
+	}
 }
 
 @media (min-width: 768px) {
@@ -137,8 +139,17 @@ header.header-img {
 	}
 }
 
+@media (min-width: 992px) {
+	html {
+		scroll-padding-top: 72px;
+	}
+}
+
 @media (min-width: 1200px) {
 	header.header-img {
 		background-image: url("../img/dog_1920.jpg");
+	}
+	html {
+		scroll-padding-top: 72px;
 	}
 }
