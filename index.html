@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    <link rel="stylesheet" href="./css/style.css">
    <script src="https://kit.fontawesome.com/ba3b913d89.js" crossorigin="anonymous"></script>
 
@@ -44,12 +45,14 @@
 
    <header class="header-img" id="home">
       <div class="header-text text-center p-2">
-         <h1><span>Golden</span>Dog</h1>
-         <p>Pies jest jedyną istotą na ziemi, która kocha Cię bardziej, niż siebie samego.</p>
-         <a href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
+         <h1 data-aos="fade-up" data-aos-delay="200"><span>Golden</span>Dog</h1>
+         <p data-aos="fade-up" data-aos-delay="400">Pies jest jedyną istotą na ziemi, która kocha Cię bardziej, niż
+            siebie samego.</p>
+         <a data-aos="fade-up" data-aos-delay="600" href="#aboutus"
+            class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
       </div>
       <div class="header-shadow"></div>
-      <a href="#aboutus"><i class="fa-solid fa-chevron-down"></i></a>
+      <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-bottom"></i></a>
    </header>
 
    <main>
@@ -59,37 +62,37 @@
             <div class="underline"></div>
 
             <div class="row">
-               <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+               <div data-aos="zoom-up" class="col-sm-6 col-md-4 text-center aboutus-hover">
                   <p><i class="fa-solid fa-paw"></i></p>
                   <p class="aboutus-card-title mb-1">pasja i praca</p>
                   <p class="aboutus-card-text">Jak pracować to tylko z pasją i miłością. Hodowla i behawiorystyka
                      zwierząt to nasza misja.</p>
                </div>
-               <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+               <div data-aos="zoom-up" class="col-sm-6 col-md-4 text-center aboutus-hover">
                   <p><i class="fa-solid fa-thumbs-up"></i></p>
                   <p class="aboutus-card-title mb-1">doświadczenie</p>
                   <p class="aboutus-card-text">Zaufało nam już wiele przedszkoli i instytucji. Pracujemy z dziećmi już
                      od etapu żłobka</p>
                </div>
-               <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+               <div data-aos="zoom-up" class="col-sm-6 col-md-4 text-center aboutus-hover">
                   <p><i class="fa-regular fa-medal"></i></p>
                   <p class="aboutus-card-title mb-1">hodowla</p>
                   <p class="aboutus-card-text">Jesteśmy znanymi hodowcami w środowisku. Nasze psy zostały docenione
                      najważniejszymi certyfikatami FCI.</p>
                </div>
-               <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+               <div data-aos="zoom-up" class="col-sm-6 col-md-4 text-center aboutus-hover">
                   <p><i class="fa-solid fa-baby-carriage"></i></p>
                   <p class="aboutus-card-title mb-1">dogoterapia</p>
                   <p class="aboutus-card-text">Prowadzimy grupowe i indywidualne zajęcia. Pracujemy z dziećmi już od
                      etapu żłobka.</p>
                </div>
-               <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+               <div data-aos="zoom-up" class="col-sm-6 col-md-4 text-center aboutus-hover">
                   <p><i class="fa-solid fa-hand-holding-heart"></i></p>
                   <p class="aboutus-card-title mb-1">przyjaźń</p>
                   <p class="aboutus-card-text">Nasze zwierzęta mieszkają znami w domu. Oprócz psów mamy na pokładzie:
                      kilka kotów, świnkę morską i rybki. Na dworze są kury, a w planach również alpaki. </p>
                </div>
-               <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+               <div data-aos="zoom-up" class="col-sm-6 col-md-4 text-center aboutus-hover">
                   <p><i class="fa-solid fa-people-roof"></i></p>
                   <p class="aboutus-card-title mb-1">rodzina</p>
                   <p class="aboutus-card-text">Kochamy nasze zwierzaki i niewyobrażamy sobie domu bez czworonogów. Tego
@@ -108,37 +111,25 @@
             <div class="row">
                <div class="col-lg-4 text-center aboutus-hero-item">
                   <p class="aboutus-hero-title mb-1">przedszkola i żłobki</p>
-                  <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-balloon" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                           d="M8 9.984C10.403 9.506 12 7.48 12 5a4 4 0 0 0-8 0c0 2.48 1.597 4.506 4 4.984ZM13 5c0 2.837-1.789 5.227-4.52 5.901l.244.487a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.244-.487C4.789 10.227 3 7.837 3 5a5 5 0 0 1 10 0Zm-6.938-.495a2.003 2.003 0 0 1 1.443-1.443C7.773 2.994 8 2.776 8 2.5c0-.276-.226-.504-.498-.459a3.003 3.003 0 0 0-2.46 2.461c-.046.272.182.498.458.498s.494-.227.562-.495Z" />
-                     </svg></p>
+                  <p><i class="bi bi-balloon-fill"></i></p>
                   <p class="aboutus-hero-text">Regulare spotkania z mami dziećmi przynoszą szybkie efekty.</p>
                </div>
                <div class="col-lg-4 text-center aboutus-hero-item">
                   <p class="aboutus-hero-title mb-1">hospicja</p>
-                  <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-person-wheelchair" viewBox="0 0 16 16">
-                        <path
-                           d="M12 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-.663 2.146a1.5 1.5 0 0 0-.47-2.115l-2.5-1.508a1.5 1.5 0 0 0-1.676.086l-2.329 1.75a.866.866 0 0 0 1.051 1.375L7.361 3.37l.922.71-2.038 2.445A4.732 4.732 0 0 0 2.628 7.67l1.064 1.065a3.25 3.25 0 0 1 4.574 4.574l1.064 1.063a4.732 4.732 0 0 0 1.09-3.998l1.043-.292-.187 2.991a.872.872 0 1 0 1.741.098l.206-4.121A1 1 0 0 0 12.224 8h-2.79l1.903-2.854ZM3.023 9.48a3.25 3.25 0 0 0 4.496 4.496l1.077 1.077a4.75 4.75 0 0 1-6.65-6.65l1.077 1.078Z" />
-                     </svg></p>
+                  <p><i class="bi bi-person-wheelchair"></i></p>
                   <p class="aboutus-hero-text">Dogoterapia przynosi efekty na każdym etapie życia i stanu zdrowia.</p>
                </div>
                <div class="col-lg-4 text-center aboutus-hero-item">
                   <p class="aboutus-hero-title mb-1">indywidualne</p>
-                  <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                           d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                     </svg></p>
+                  <p><i class="bi bi-star-fill"></i></p>
                   <p class="aboutus-hero-text">Spotkania indywidualne są bardziej dostosowane do potrzeb klientów.</p>
                </div>
             </div>
          </div>
-
       </section>
+
       <section id="portfolio" class="portfolio py-5">
-         <h2 class="section-title">Nasz zespół</h2>
+         <h2 class="section-title">portfolio</h2>
          <div class="underline"></div>
          <div class="container d-none d-lg-block ">
             <div id="carouselExampleCaptions" class="carousel slide">
@@ -272,7 +263,7 @@
                   <img src="./img/team/team-dog4.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Ciasteczko</h5>
-                     <p class="card-text">Dog</p>
+                     <p class="card-text">Nasz faworyt. Budzi postrach, ale to najwiekszy sodziak w ekipie.</p>
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                      <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -283,10 +274,8 @@
                <div class="card mx-3">
                   <img src="./img/team/team-dog2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                     <h5 class="card-title">Card title</h5>
-                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
+                     <h5 class="card-title">Pimpek</h5>
+                     <p class="card-text">Perełka naszej sfory. Najchętniej pracuje w małymi dziećmi i starszymi ludzmi.</p>
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                      <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -297,10 +286,8 @@
                <div class="card mx-3">
                   <img src="./img/team/team-dog3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                     <h5 class="card-title">Card title</h5>
-                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
+                     <h5 class="card-title">Zenek</h5>
+                     <p class="card-text">Nasz najstarszy czworonóg. Faworyt wśród pacjentów hospicjum.</p>
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                      <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -311,10 +298,8 @@
                <div class="card mx-3">
                   <img src="./img/team/team-dog1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                     <h5 class="card-title">Card title</h5>
-                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
+                     <h5 class="card-title">Bestia</h5>
+                     <p class="card-text">Imie to zmyłka. Bestia to nasz najmniejszy psiak, który jest uwielbiany przez najmniejszych. Kocha dzieci złobkowe, jest bardzo cierpliwy.</p>
                   </div>
                   <div class="card-footer d-flex justify-content-around">
                      <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -331,32 +316,32 @@
          <div class="underline"></div>
          <div class="container">
             <div class="row text-center">
-               <div class="achievements-card col-md-6 col-lg-4 col-xl-2">
+               <div data-aos="zoom-in" data-aos-delay="200" class="achievements-card col-md-6 col-lg-4 col-xl-2">
                   <p><i class="bi bi-hand-thumbs-up"></i></p>
                   <p class="achievements-statistics">100%</p>
                   <p class="achievements-text">zadowolonych klientów</p>
                </div>
-               <div class="achievements-card col-md-6 col-lg-4 col-xl-2">
+               <div data-aos="zoom-in" data-aos-delay="450" class="achievements-card col-md-6 col-lg-4 col-xl-2">
                   <p><i class="bi bi-trophy"></i></p>
                   <p class="achievements-statistics">8</p>
                   <p class="achievements-text">międzynarodowych nagród</p>
                </div>
-               <div class="achievements-card col-md-6 col-lg-4 col-xl-2">
+               <div data-aos="zoom-in" data-aos-delay="400" class="achievements-card col-md-6 col-lg-4 col-xl-2">
                   <p><i class="bi bi-patch-check"></i></p>
                   <p class="achievements-statistics">12</p>
                   <p class="achievements-text">certyfikatów</p>
                </div>
-               <div class="achievements-card col-md-6 col-lg-4 col-xl-2">
+               <div data-aos="zoom-in" data-aos-delay="650" class="achievements-card col-md-6 col-lg-4 col-xl-2">
                   <p><i class="bi bi-alarm"></i></p>
                   <p class="achievements-statistics">1800h</p>
                   <p class="achievements-text">przeprowadzonych zajęć</p>
                </div>
-               <div class="achievements-card col-md-6 col-lg-4 col-xl-2">
+               <div data-aos="zoom-in" data-aos-delay="320" class="achievements-card col-md-6 col-lg-4 col-xl-2">
                   <p><i class="bi bi-person-raised-hand"></i></p>
                   <p class="achievements-statistics">90%</p>
                   <p class="achievements-text">powracających współprac</p>
                </div>
-               <div class="achievements-card col-md-6 col-lg-4 col-xl-2">
+               <div data-aos="zoom-in" data-aos-delay="250" class="achievements-card col-md-6 col-lg-4 col-xl-2">
                   <p><i class="bi bi-emoji-smile"></i></p>
                   <p class="achievements-statistics">8200</p>
                   <p class="achievements-text">fanów na fb</p>
@@ -397,7 +382,7 @@
          </div>
          </div>
          <div class="contact-shadow"></div>
-      </section>  
+      </section>
    </main>
    <footer class="bg-dark text-light py-4 text-center">
       <p>&copy; 2023 | Ceteryzyna</p>
@@ -406,6 +391,8 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script src="./js/aos.js"></script>
    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
